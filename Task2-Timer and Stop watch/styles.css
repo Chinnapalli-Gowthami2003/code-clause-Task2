@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rebeccapurple;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stopwatch, .timer {
+    margin-bottom: 20px;
+}
+
+.display, .timer-display {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    font-size: 16px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
